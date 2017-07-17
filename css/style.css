@@ -5,11 +5,9 @@
     margin: auto; /* align center */
     animation-name: fade;
     /* animation:example ease-in 2s infinite normal; */
-    animation:fade 2s  ;
+    animation:fade 4s  ;
 }
-.my_slide:hover{
-    animation:none
-}
+
  @keyframes fade {
     from {opacity: 0;}
     to {opacity: 1;}
