@@ -1,9 +1,9 @@
 var a = 0; // a = slide index
 var myVar;
-slide()
+slide();
 
 function startSlide(){
-     myVar = setInterval(slide,1000);
+     myVar = setInterval(slide,5000);
 }
 
 function slide(){
@@ -15,7 +15,7 @@ function slide(){
     a++;
     if(a > x.length){a = 1}
     x[a-1].style.display = "block";
-    // setTimeout(slide, 8000);
+    //setTimeout(slide, 3000);
 }
 
 function stopSlide() {
